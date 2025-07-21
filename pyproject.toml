@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloudio"
+version = "0.1.0"
+description = "Easily orchestrate automations using CloudIO"
+authors = [
+    {name = "CloudIO Team", email = "team_cloudio"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "apache-airflow==2.9.2",
+    "apache-airflow-task-sdk==1.0.2"
+]

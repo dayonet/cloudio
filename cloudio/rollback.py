@@ -1,6 +1,7 @@
 
 from airflow import DAG
-from airflow.sdk import task, get_current_context, TaskGroup
+from airflow.decorators import task, get_current_context
+from airflow.utils.task_group import TaskGroup
 from airflow.utils.state import State
 from airflow.models import DagRun
 from airflow.utils.trigger_rule import TriggerRule

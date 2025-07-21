@@ -1,6 +1,6 @@
 from base_task import CloudioTask
 from typing import ClassVar
-from airflow.sdk import task
+from airflow.decorators import task
 
 
 class BashCloudioTask(CloudioTask):

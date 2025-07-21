@@ -1,7 +1,7 @@
 
 from functools import wraps
 from airflow import DAG
-from airflow.sdk import dag
+from airflow.models import dag
 from rollback import rollback
 
 

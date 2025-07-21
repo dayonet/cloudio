@@ -1,5 +1,5 @@
 from typing import Any, Callable, ClassVar
-from airflow.sdk.definitions.decorators import TaskDecorator
+from airflow.decorators.base import TaskDecorator
 from abc import ABCMeta, abstractmethod
 
 
